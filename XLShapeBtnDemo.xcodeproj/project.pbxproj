@@ -20,9 +20,9 @@
 		772277AF20B79EAD002738A7 /* XLShapeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772277A220B79EAD002738A7 /* XLShapeBtn.m */; };
 		772277B020B79EAD002738A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 772277A420B79EAD002738A7 /* Info.plist */; };
 		772277B520B79F1E002738A7 /* XLShapeBtnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772277B320B79F1D002738A7 /* XLShapeBtnController.m */; };
-		772277B820B79F57002738A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277B720B79F57002738A7 /* CoreGraphics.framework */; };
 		772277BA20B79F61002738A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277B920B79F61002738A7 /* UIKit.framework */; };
 		772277BC20B79F69002738A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277BB20B79F69002738A7 /* Foundation.framework */; };
+		772277BD20B7E7D7002738A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277B720B79F57002738A7 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772277BD20B7E7D7002738A7 /* CoreGraphics.framework in Frameworks */,
 				772277BC20B79F69002738A7 /* Foundation.framework in Frameworks */,
 				772277BA20B79F61002738A7 /* UIKit.framework in Frameworks */,
-				772277B820B79F57002738A7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
