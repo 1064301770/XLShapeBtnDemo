@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7722777720B79E88002738A7 /* XLShapeBtnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722777620B79E88002738A7 /* XLShapeBtnDemoTests.m */; };
+		7722778220B79E88002738A7 /* XLShapeBtnDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722778120B79E88002738A7 /* XLShapeBtnDemoUITests.m */; };
+		772277A720B79EAD002738A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7722779020B79EAC002738A7 /* Assets.xcassets */; };
+		772277A820B79EAD002738A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722779120B79EAC002738A7 /* AppDelegate.m */; };
+		772277A920B79EAD002738A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7722779320B79EAC002738A7 /* LaunchScreen.storyboard */; };
+		772277AA20B79EAD002738A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7722779520B79EAC002738A7 /* Main.storyboard */; };
+		772277AB20B79EAD002738A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722779720B79EAC002738A7 /* main.m */; };
+		772277AC20B79EAD002738A7 /* XLCompelShapeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722779820B79EAC002738A7 /* XLCompelShapeController.m */; };
+		772277AD20B79EAD002738A7 /* UIImage+XLColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722779C20B79EAC002738A7 /* UIImage+XLColorAtPixel.m */; };
+		772277AE20B79EAD002738A7 /* UIImageView+XLPointToCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7722779F20B79EAC002738A7 /* UIImageView+XLPointToCategory.m */; };
+		772277AF20B79EAD002738A7 /* XLShapeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 772277A220B79EAD002738A7 /* XLShapeBtn.m */; };
+		772277B020B79EAD002738A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 772277A420B79EAD002738A7 /* Info.plist */; };
+		772277B520B79F1E002738A7 /* XLShapeBtnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772277B320B79F1D002738A7 /* XLShapeBtnController.m */; };
+		772277B820B79F57002738A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277B720B79F57002738A7 /* CoreGraphics.framework */; };
+		772277BA20B79F61002738A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277B920B79F61002738A7 /* UIKit.framework */; };
+		772277BC20B79F69002738A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772277BB20B79F69002738A7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7722777320B79E88002738A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7722775220B79E88002738A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7722775920B79E88002738A7;
+			remoteInfo = XLShapeBtnDemo;
+		};
+		7722777E20B79E88002738A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7722775220B79E88002738A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7722775920B79E88002738A7;
+			remoteInfo = XLShapeBtnDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7722775A20B79E88002738A7 /* XLShapeBtnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLShapeBtnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722777220B79E88002738A7 /* XLShapeBtnDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLShapeBtnDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722777620B79E88002738A7 /* XLShapeBtnDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLShapeBtnDemoTests.m; sourceTree = "<group>"; };
+		7722777820B79E88002738A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7722777D20B79E88002738A7 /* XLShapeBtnDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLShapeBtnDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722778120B79E88002738A7 /* XLShapeBtnDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLShapeBtnDemoUITests.m; sourceTree = "<group>"; };
+		7722778320B79E88002738A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7722779020B79EAC002738A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7722779120B79EAC002738A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7722779420B79EAC002738A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7722779620B79EAC002738A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7722779720B79EAC002738A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7722779820B79EAC002738A7 /* XLCompelShapeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCompelShapeController.m; sourceTree = "<group>"; };
+		7722779B20B79EAC002738A7 /* UIImage+XLColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLColorAtPixel.h"; sourceTree = "<group>"; };
+		7722779C20B79EAC002738A7 /* UIImage+XLColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLColorAtPixel.m"; sourceTree = "<group>"; };
+		7722779E20B79EAC002738A7 /* UIImageView+XLPointToCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XLPointToCategory.h"; sourceTree = "<group>"; };
+		7722779F20B79EAC002738A7 /* UIImageView+XLPointToCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XLPointToCategory.m"; sourceTree = "<group>"; };
+		772277A120B79EAD002738A7 /* XLShapeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLShapeBtn.h; sourceTree = "<group>"; };
+		772277A220B79EAD002738A7 /* XLShapeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLShapeBtn.m; sourceTree = "<group>"; };
+		772277A320B79EAD002738A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		772277A420B79EAD002738A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772277A520B79EAD002738A7 /* XLCompelShapeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCompelShapeController.h; sourceTree = "<group>"; };
+		772277B320B79F1D002738A7 /* XLShapeBtnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLShapeBtnController.m; sourceTree = "<group>"; };
+		772277B420B79F1D002738A7 /* XLShapeBtnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLShapeBtnController.h; sourceTree = "<group>"; };
+		772277B720B79F57002738A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		772277B920B79F61002738A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		772277BB20B79F69002738A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7722775720B79E88002738A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772277BC20B79F69002738A7 /* Foundation.framework in Frameworks */,
+				772277BA20B79F61002738A7 /* UIKit.framework in Frameworks */,
+				772277B820B79F57002738A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722776F20B79E88002738A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722777A20B79E88002738A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7722775120B79E88002738A7 = {
+			isa = PBXGroup;
+			children = (
+				7722775C20B79E88002738A7 /* XLShapeBtnDemo */,
+				7722777520B79E88002738A7 /* XLShapeBtnDemoTests */,
+				7722778020B79E88002738A7 /* XLShapeBtnDemoUITests */,
+				7722775B20B79E88002738A7 /* Products */,
+				772277B620B79F56002738A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7722775B20B79E88002738A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7722775A20B79E88002738A7 /* XLShapeBtnDemo.app */,
+				7722777220B79E88002738A7 /* XLShapeBtnDemoTests.xctest */,
+				7722777D20B79E88002738A7 /* XLShapeBtnDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7722775C20B79E88002738A7 /* XLShapeBtnDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7722779920B79EAC002738A7 /* XLShapeBtnLib */,
+				772277A320B79EAD002738A7 /* AppDelegate.h */,
+				7722779120B79EAC002738A7 /* AppDelegate.m */,
+				772277A520B79EAD002738A7 /* XLCompelShapeController.h */,
+				7722779820B79EAC002738A7 /* XLCompelShapeController.m */,
+				772277B420B79F1D002738A7 /* XLShapeBtnController.h */,
+				772277B320B79F1D002738A7 /* XLShapeBtnController.m */,
+				7722779220B79EAC002738A7 /* Base.lproj */,
+				772277A420B79EAD002738A7 /* Info.plist */,
+				7722779720B79EAC002738A7 /* main.m */,
+				7722779020B79EAC002738A7 /* Assets.xcassets */,
+			);
+			path = XLShapeBtnDemo;
+			sourceTree = "<group>";
+		};
+		7722777520B79E88002738A7 /* XLShapeBtnDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7722777620B79E88002738A7 /* XLShapeBtnDemoTests.m */,
+				7722777820B79E88002738A7 /* Info.plist */,
+			);
+			path = XLShapeBtnDemoTests;
+			sourceTree = "<group>";
+		};
+		7722778020B79E88002738A7 /* XLShapeBtnDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7722778120B79E88002738A7 /* XLShapeBtnDemoUITests.m */,
+				7722778320B79E88002738A7 /* Info.plist */,
+			);
+			path = XLShapeBtnDemoUITests;
+			sourceTree = "<group>";
+		};
+		7722779220B79EAC002738A7 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7722779320B79EAC002738A7 /* LaunchScreen.storyboard */,
+				7722779520B79EAC002738A7 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../../../XLShapeBtn/XLShapeBtnDemo/Base.lproj;
+			sourceTree = "<group>";
+		};
+		7722779920B79EAC002738A7 /* XLShapeBtnLib */ = {
+			isa = PBXGroup;
+			children = (
+				7722779A20B79EAC002738A7 /* Image+ColorAtPixel */,
+				7722779D20B79EAC002738A7 /* ImageView+PointToCategory */,
+				772277A020B79EAD002738A7 /* XLShapeBtn */,
+			);
+			path = XLShapeBtnLib;
+			sourceTree = "<group>";
+		};
+		7722779A20B79EAC002738A7 /* Image+ColorAtPixel */ = {
+			isa = PBXGroup;
+			children = (
+				7722779B20B79EAC002738A7 /* UIImage+XLColorAtPixel.h */,
+				7722779C20B79EAC002738A7 /* UIImage+XLColorAtPixel.m */,
+			);
+			path = "Image+ColorAtPixel";
+			sourceTree = "<group>";
+		};
+		7722779D20B79EAC002738A7 /* ImageView+PointToCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7722779E20B79EAC002738A7 /* UIImageView+XLPointToCategory.h */,
+				7722779F20B79EAC002738A7 /* UIImageView+XLPointToCategory.m */,
+			);
+			path = "ImageView+PointToCategory";
+			sourceTree = "<group>";
+		};
+		772277A020B79EAD002738A7 /* XLShapeBtn */ = {
+			isa = PBXGroup;
+			children = (
+				772277A120B79EAD002738A7 /* XLShapeBtn.h */,
+				772277A220B79EAD002738A7 /* XLShapeBtn.m */,
+			);
+			path = XLShapeBtn;
+			sourceTree = "<group>";
+		};
+		772277B620B79F56002738A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				772277BB20B79F69002738A7 /* Foundation.framework */,
+				772277B920B79F61002738A7 /* UIKit.framework */,
+				772277B720B79F57002738A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7722775920B79E88002738A7 /* XLShapeBtnDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722778620B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemo" */;
+			buildPhases = (
+				7722775620B79E88002738A7 /* Sources */,
+				7722775720B79E88002738A7 /* Frameworks */,
+				7722775820B79E88002738A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLShapeBtnDemo;
+			productName = XLShapeBtnDemo;
+			productReference = 7722775A20B79E88002738A7 /* XLShapeBtnDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7722777120B79E88002738A7 /* XLShapeBtnDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722778920B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemoTests" */;
+			buildPhases = (
+				7722776E20B79E88002738A7 /* Sources */,
+				7722776F20B79E88002738A7 /* Frameworks */,
+				7722777020B79E88002738A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7722777420B79E88002738A7 /* PBXTargetDependency */,
+			);
+			name = XLShapeBtnDemoTests;
+			productName = XLShapeBtnDemoTests;
+			productReference = 7722777220B79E88002738A7 /* XLShapeBtnDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7722777C20B79E88002738A7 /* XLShapeBtnDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7722778C20B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemoUITests" */;
+			buildPhases = (
+				7722777920B79E88002738A7 /* Sources */,
+				7722777A20B79E88002738A7 /* Frameworks */,
+				7722777B20B79E88002738A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7722777F20B79E88002738A7 /* PBXTargetDependency */,
+			);
+			name = XLShapeBtnDemoUITests;
+			productName = XLShapeBtnDemoUITests;
+			productReference = 7722777D20B79E88002738A7 /* XLShapeBtnDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7722775220B79E88002738A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HuXiaolong;
+				TargetAttributes = {
+					7722775920B79E88002738A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7722777120B79E88002738A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7722775920B79E88002738A7;
+					};
+					7722777C20B79E88002738A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7722775920B79E88002738A7;
+					};
+				};
+			};
+			buildConfigurationList = 7722775520B79E88002738A7 /* Build configuration list for PBXProject "XLShapeBtnDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7722775120B79E88002738A7;
+			productRefGroup = 7722775B20B79E88002738A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7722775920B79E88002738A7 /* XLShapeBtnDemo */,
+				7722777120B79E88002738A7 /* XLShapeBtnDemoTests */,
+				7722777C20B79E88002738A7 /* XLShapeBtnDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7722775820B79E88002738A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772277B020B79EAD002738A7 /* Info.plist in Resources */,
+				772277AA20B79EAD002738A7 /* Main.storyboard in Resources */,
+				772277A720B79EAD002738A7 /* Assets.xcassets in Resources */,
+				772277A920B79EAD002738A7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722777020B79E88002738A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722777B20B79E88002738A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7722775620B79E88002738A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772277AF20B79EAD002738A7 /* XLShapeBtn.m in Sources */,
+				772277A820B79EAD002738A7 /* AppDelegate.m in Sources */,
+				772277AC20B79EAD002738A7 /* XLCompelShapeController.m in Sources */,
+				772277AE20B79EAD002738A7 /* UIImageView+XLPointToCategory.m in Sources */,
+				772277AB20B79EAD002738A7 /* main.m in Sources */,
+				772277B520B79F1E002738A7 /* XLShapeBtnController.m in Sources */,
+				772277AD20B79EAD002738A7 /* UIImage+XLColorAtPixel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722776E20B79E88002738A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7722777720B79E88002738A7 /* XLShapeBtnDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722777920B79E88002738A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7722778220B79E88002738A7 /* XLShapeBtnDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7722777420B79E88002738A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7722775920B79E88002738A7 /* XLShapeBtnDemo */;
+			targetProxy = 7722777320B79E88002738A7 /* PBXContainerItemProxy */;
+		};
+		7722777F20B79E88002738A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7722775920B79E88002738A7 /* XLShapeBtnDemo */;
+			targetProxy = 7722777E20B79E88002738A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7722779320B79EAC002738A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7722779420B79EAC002738A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7722779520B79EAC002738A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7722779620B79EAC002738A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7722778420B79E88002738A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7722778520B79E88002738A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7722778720B79E88002738A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7722778820B79E88002738A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7722778A20B79E88002738A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLShapeBtnDemo.app/XLShapeBtnDemo";
+			};
+			name = Debug;
+		};
+		7722778B20B79E88002738A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLShapeBtnDemo.app/XLShapeBtnDemo";
+			};
+			name = Release;
+		};
+		7722778D20B79E88002738A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLShapeBtnDemo;
+			};
+			name = Debug;
+		};
+		7722778E20B79E88002738A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZZ9L2FQ3;
+				INFOPLIST_FILE = XLShapeBtnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mooyi.XLShapeBtnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XLShapeBtnDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7722775520B79E88002738A7 /* Build configuration list for PBXProject "XLShapeBtnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722778420B79E88002738A7 /* Debug */,
+				7722778520B79E88002738A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722778620B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722778720B79E88002738A7 /* Debug */,
+				7722778820B79E88002738A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722778920B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722778A20B79E88002738A7 /* Debug */,
+				7722778B20B79E88002738A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7722778C20B79E88002738A7 /* Build configuration list for PBXNativeTarget "XLShapeBtnDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7722778D20B79E88002738A7 /* Debug */,
+				7722778E20B79E88002738A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7722775220B79E88002738A7 /* Project object */;
+}
